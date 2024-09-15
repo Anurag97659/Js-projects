@@ -1,0 +1,45 @@
+#body{
+    background-color: #212121;
+    color: yellow;
+
+}
+#main{
+    margin-top: 200px;
+    margin-left: 600px;
+    background-color: #616161;
+    height: 200px;
+    width: 300px;
+    display: flex  ;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+#main2{
+    /* background-color: red; */
+    height: 100px;
+    width: 250px;
+    display: flex  ;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+#start, #stop{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#start:hover, #stop:hover{
+    background-color: blue;
+    color: white;
+}
+#reset{background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#reset:hover{background-color: blue;
+    color: white;}
