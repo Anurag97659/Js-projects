@@ -1,0 +1,110 @@
+#body{
+    background-color:darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large
+}
+#h1{
+    text-align: center;
+    margin-top: 2px;
+    font-size: 50px;
+    text-shadow: 4px 4px 10px black;
+}
+#main{
+    background-color:lightgrey;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px black;
+  
+}
+#workField{
+    width: 80%;
+    height: 30px;
+    border-radius: 19px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top:0px;
+    margin-left: 15px;
+    font-size: x-large;
+    background-color:lightgreen;
+    box-shadow: 5px 5px 5px black;
+}
+ #add{
+    background-color:#2accc8;
+    color: black;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-left: 15px;
+    width: 80px;
+    font-size: large;
+    box-shadow: 5px 5px 5px black;
+}
+#add:hover{
+    background-color: blue;
+    color: white;
+}
+#additem{
+    width: 93%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 15px;
+    background-color:lightgreen;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;   
+}
+#option{
+    height: 45px;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: aqua;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top:10px;
+    margin-left: 15px;
+    position: relative; 
+}
+#option:hover{
+    background-color: rgb(180, 180, 222);
+    color: white;
+}
+#checkbox{
+    width: 20px; 
+    height: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#bu{
+    display: flex;
+    flex-direction: row ;
+}
+#la{
+    margin-left: 15px;
+}
+#del{
+    background-color:#2accc8;
+    color: black;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-left: 25px;
+    width: 80px;
+    font-size: large;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    right: 25px; 
+    top: 11px;  
+}
+#del:hover{
+    background-color: blue;
+    color: white;
+}
